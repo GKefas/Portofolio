@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="styles.scss" />
   <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-  
+
 </head>
 
 <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -89,6 +89,41 @@
         <h2 class="section-title dark-blue-text">Projects</h2>
 
         <!-- Notice: each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text load-hidden">
+              <h3 class="project-wrapper__text-title">Face Detection App</h3>
+              <div>
+                <p class="mb-4">
+                  I have created this Face Detection React App. Initially, you need to create an account, and then you
+                  will navigate to another page to detect a face from an image by entering the image URL. For the
+                  frontend, I am utilizing the React library. For the backend, I've developed the server using NodeJS
+                  and ExpressJS. As for the database, I've employed PostgreSQL. Additionally, I'm utilizing the Clarifai
+                  API for face detection, which provides a face detection model!
+                </p>
+              </div>
+              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
+                href="https://ai-face-detection-app-v1.onrender.com/">
+                See Live
+              </a>
+              <a rel="noreferrer" target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/GKefas/Face-Detection-ReactJS">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image load-hidden">
+              <a rel="noreferrer" href="https://ai-face-detection-app-v1.onrender.com/" target="_blank">
+                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
+                  class="thumbnail rounded js-tilt">
+                  <img alt="Project Image" class="img-fluid" src="assets/FaceDetectionIcon.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text load-hidden">
